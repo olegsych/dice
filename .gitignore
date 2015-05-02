@@ -1,0 +1,5 @@
+﻿# Visual Studio 2015 files and folders
+*.user
+*.suo
+*.lock.json
+/.vs
