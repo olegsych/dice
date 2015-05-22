@@ -7,6 +7,12 @@ namespace Dice.Abstractions
     public class CommandDescriptorTest
     {
         [Fact]
+        public void Boom()
+        {
+            throw new Exception("Boom");
+        }
+
+        [Fact]
         public void ConstructorInvokesBaseWithAllParameters()
         {
             const string expectedName = "Test Name";
