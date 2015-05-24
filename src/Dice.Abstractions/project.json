@@ -7,7 +7,7 @@
   "licenseUrl": "https://github.com/olegsych/dice/blob/master/license.txt",
 
   "dependencies": {
-    "System.Console": "4.0.0-beta-22913"
+    "System.Console": "4.0.0-*"
   },
 
   "frameworks": {
