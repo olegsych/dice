@@ -8,6 +8,8 @@
 
   "dependencies": {
     "Dice.Abstractions": "1.0.0-*",
+    "NSubstitute": "1.8.1",
+    "System.Console": "4.0.0-beta-22913",
     "xunit": "2.1.0-*",
     "xunit.runner.dnx": "2.1.0-*"
   },
@@ -17,11 +19,6 @@
   },
 
   "frameworks": {
-    "dnx451": { },
-    "dnxcore50": {
-      "dependencies": {
-        "System.Collections": "4.0.10-beta-22816"
-      }
-    }
+    "dnx451": { }
   }
 }
